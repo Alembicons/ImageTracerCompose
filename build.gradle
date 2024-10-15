@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'org.jetbrains.kotlin.android'
+apply plugin: 'maven-publish'
 
 repositories {
     google()
@@ -43,6 +44,27 @@ android {
         jvmTarget = '1.8'
     }
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'dev.Adevium'
+                artifactId = 'ImageTracerCompose'
+                version = '1.0.0'
+
+                pom {
+                    name = 'ImageTracerCompose'
+                    description = 'Image tracer for android compose.'
+                    url = 'https://github.com/Adevium/ImageTracerCompose'
+                }
+            }
+        }
+    }
+}
+
 
 dependencies {
     implementation "androidx.compose.ui:ui-android:1.7.3"
