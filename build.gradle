@@ -22,7 +22,7 @@ buildscript {
 }
 
 android {
-    namespace "dev.Adevium.ImageTracerCompose"
+    namespace "dev.AlembiconsProject.ImageTracerCompose"
     compileSdk 35
 
     defaultConfig {
@@ -51,14 +51,14 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'dev.Adevium'
+                groupId = 'dev.AlembiconsProject'
                 artifactId = 'ImageTracerCompose'
-                version = '1.0.2'
+                version = '1.0.3'
 
                 pom {
                     name = 'ImageTracerCompose'
                     description = 'Image tracer for android compose.'
-                    url = 'https://github.com/Adevium/ImageTracerCompose'
+                    url = 'https://github.com/Alembicons/ImageTracerCompose'
                 }
             }
         }

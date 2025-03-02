@@ -1,4 +1,4 @@
-package dev.adevium.imagetracer
+package dev.alembiconsProject.imagetracer
 
 /**
 * @(#)Quantize.java    0.90 9/19/00 Adam Doppelt

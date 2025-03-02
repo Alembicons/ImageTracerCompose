@@ -1,4 +1,4 @@
-package dev.adevium.imagetracer
+package dev.alembiconsProject.imagetracer
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap

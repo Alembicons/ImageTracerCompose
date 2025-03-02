@@ -1,8 +1,8 @@
-package dev.adevium.imagetracer
+package dev.alembiconsProject.imagetracer
 
-import dev.adevium.imagetracer.ImageTracer.ImageData
-import dev.adevium.imagetracer.ImageTracer.IndexedImage
-import dev.adevium.imagetracer.ImageTracer.TracingOptions
+import dev.alembiconsProject.imagetracer.ImageTracer.ImageData
+import dev.alembiconsProject.imagetracer.ImageTracer.IndexedImage
+import dev.alembiconsProject.imagetracer.ImageTracer.TracingOptions
 import kotlin.math.abs
 
 class VectorizingUtils {

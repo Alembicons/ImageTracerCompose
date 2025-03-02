@@ -1,9 +1,9 @@
-package dev.adevium.imagetracer
+package dev.alembiconsProject.imagetracer
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
-import dev.adevium.imagetracer.ImageTracer.IndexedImage
-import dev.adevium.imagetracer.ImageTracer.TracingOptions
+import dev.alembiconsProject.imagetracer.ImageTracer.IndexedImage
+import dev.alembiconsProject.imagetracer.ImageTracer.TracingOptions
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.PathNode
 import androidx.compose.ui.unit.dp

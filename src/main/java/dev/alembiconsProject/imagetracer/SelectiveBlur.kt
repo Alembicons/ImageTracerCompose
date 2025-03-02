@@ -1,6 +1,6 @@
-package dev.adevium.imagetracer
+package dev.alembiconsProject.imagetracer
 
-import dev.adevium.imagetracer.ImageTracer.ImageData
+import dev.alembiconsProject.imagetracer.ImageTracer.ImageData
 import kotlin.math.abs
 import kotlin.math.floor
 
